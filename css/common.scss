@@ -983,6 +983,16 @@ img {
                 }
             }
         }
+        &_tech {
+            .bg_img {
+                &.left {
+                    display: none;
+                }
+                &.right {
+                    width: 50%;
+                }
+            }
+        }
         
         &_works {
             &_list {

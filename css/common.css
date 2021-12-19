@@ -297,6 +297,8 @@ img { max-width: 100%; }
   .main_responsive_slide .mv-pagination { display: block; text-align: center; font-size: 0; margin-top: 32px; }
   .main_responsive_slide .mv-pagination .swiper-pagination-bullet { opacity: 1; width: 24px; height: 4px; background-color: #f7f7f7; border-radius: 0; margin: 0 2px; }
   .main_responsive_slide .mv-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { background-color: #2f91e8; }
+  .main_tech .bg_img.left { display: none; }
+  .main_tech .bg_img.right { width: 50%; }
   .main_works_list { -ms-flex-wrap: nowrap; flex-wrap: nowrap; display: -webkit-box; display: -ms-flexbox; display: flex; }
   .mv-nav { display: none; }
   .mv .mv-pagination { margin-top: 100px; }
