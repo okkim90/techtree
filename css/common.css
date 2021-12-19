@@ -259,7 +259,7 @@ img { max-width: 100%; }
   .mv .mv-nav.mv-prev { left: 30px; }
   .mv .mv-nav.mv-next { right: 30px; } }
 
-@media (max-width: 767px) { .m_only { display: block; }
+@media (max-width: 767px) { .m_only { display: block !important; }
   .header { height: 50px; padding: 0 16px; }
   .header_inner h1 a { width: 170px; height: 34px; }
   .header .gnb li a { font-size: 30px; font-weight: bold; }
@@ -295,11 +295,21 @@ img { max-width: 100%; }
   .main_responsive_slide { overflow: hidden; }
   .main_responsive_slide .swiper-slide { -webkit-box-flex: 0; -ms-flex: 0 0 auto; flex: 0 0 auto; }
   .main_responsive_slide .mv-pagination { display: block; text-align: center; font-size: 0; margin-top: 32px; }
-  .main_responsive_slide .mv-pagination .swiper-pagination-bullet { opacity: 1; width: 24px; height: 4px; background-color: #f7f7f7; border-radius: 0; margin: 0 2px; }
+  .main_responsive_slide .mv-pagination .swiper-pagination-bullet { opacity: 1; width: 24px; height: 4px; background-color: rgba(0, 0, 0, 0.1); border-radius: 0; margin: 0 2px; }
   .main_responsive_slide .mv-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { background-color: #2f91e8; }
   .main_tech .bg_img.left { display: none; }
   .main_tech .bg_img.right { width: 50%; }
+  .main_tech_slide { margin: 0; width: 252px; margin: 0 auto; }
+  .main_tech_item { padding: 0; }
+  .main_tech_item .link { padding: 40px 15px; }
+  .main_tech_item .txt_box { margin-top: 20px; }
+  .main_tech_item .txt_box .tit { font-size: 20px; line-height: 23px; }
+  .main_tech_item .txt_box .desc { font-size: 14px; line-height: 20px; margin-top: 12px; }
   .main_works_list { -ms-flex-wrap: nowrap; flex-wrap: nowrap; display: -webkit-box; display: -ms-flexbox; display: flex; }
+  .main_works .txt_box .tit { font-size: 20px; line-height: 29px; letter-spacing: -0.6px; }
+  .main_works .txt_box .tags { font-size: 13px; line-height: 19px; }
+  .main_works_slide { margin: 0; margin-top: 0; }
+  .main_works_slide .main_works_item { padding: 0; margin-top: 0; }
   .mv-nav { display: none; }
   .mv .mv-pagination { margin-top: 100px; }
   .mv_item_txt { font-size: 32px; line-height: 40px; padding-bottom: 44px; }

@@ -818,7 +818,7 @@ img {
 
 @include mobile {
     .m_only {
-        display: block;
+        display: block !important;
     }
     .header {
         height: 50px;
@@ -974,7 +974,7 @@ img {
                     opacity: 1;
                     width: 24px;
                     height: 4px;
-                    background-color: #f7f7f7;
+                    background-color: rgba(#000,.1);
                     border-radius: 0;
                     margin: 0 2px;
                     &.swiper-pagination-bullet-active {
@@ -992,12 +992,54 @@ img {
                     width: 50%;
                 }
             }
+            &_slide {
+                margin: 0;
+                width: 252px;
+                margin: 0 auto;
+            }
+            &_item {
+                padding: 0;
+                .link {
+                    padding: 40px 15px;
+                }
+                .txt_box {
+                    margin-top: 20px;
+                    .tit {
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                    .desc {
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-top: 12px;
+                    }
+                }
+            }
         }
         
         &_works {
             &_list {
                 flex-wrap: nowrap;
                 display: flex;
+            }
+            .txt_box {
+                .tit {
+                    font-size: 20px;
+                    line-height: 29px;
+                    letter-spacing: -0.6px;
+                }
+                .tags {
+                    font-size: 13px;
+                    line-height: 19px;
+                }
+            }
+            &_slide {
+                margin: 0;
+                margin-top: 0;
+                .main_works_item {
+                    padding: 0;
+                    margin-top: 0;
+                }
             }
         }
 
