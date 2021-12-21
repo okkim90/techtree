@@ -1,0 +1,13 @@
+<svg id="Location_icon" xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 13 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_417" data-name="사각형 417" class="cls-1" d="M0 0h13v20H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#2f91e8}
+        </style>
+    </defs>
+    <g id="그룹_278" data-name="그룹 278" style="clip-path:url(#clip-path)">
+        <path id="패스_2545" data-name="패스 2545" class="cls-1" d="M12.189 3.277a6.575 6.575 0 0 0-11.377 0 6.218 6.218 0 0 0-.188 5.784l5.041 10.421a.934.934 0 0 0 1.671 0l5.041-10.421a6.218 6.218 0 0 0-.188-5.785M6.5 8.653a2.819 2.819 0 0 1-2.851-2.785 2.852 2.852 0 0 1 5.7 0A2.819 2.819 0 0 1 6.5 8.653"/>
+    </g>
+</svg>
