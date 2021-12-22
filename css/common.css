@@ -369,6 +369,7 @@ img { max-width: 100%; }
   .mv_item_txt { font-size: 5vw; }
   .mv .mv-nav.mv-prev { left: 30px; }
   .mv .mv-nav.mv-next { right: 30px; }
+  .year_item button span { z-index: 10; }
   .year_wrap::after { bottom: 1px; }
   .sub_sec_history .txt_img { bottom: -4.8vw; left: 30%; }
   .sub_sec_history .txt_img img { max-width: 100%; } }

@@ -1144,7 +1144,11 @@ img {
             }
         }
     }
-
+    .year_item {
+        button span {
+            z-index: 10;
+        }
+    }
     .year_wrap {
         &::after {
             bottom: 1px;
