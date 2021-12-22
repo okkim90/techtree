@@ -306,13 +306,26 @@ img { max-width: 100%; }
 
 .history_item h3 { font-size: 40px; line-height: 46px; font-weight: bold; color: #2f91e8; font-family: play; }
 
-.history_cont { margin-top: 32px; }
+.history_cont { margin-top: 32px; position: relative; }
 
 .history_cont li { font-size: 18px; line-height: 1.33; letter-spacing: -0.54px; font-weight: 500; padding-left: 17px; position: relative; }
 
 .history_cont li + li { margin-top: 12px; }
 
 .history_cont li::before { content: ''; position: absolute; width: 5px; height: 5px; background-color: #222; left: 0; top: 9px; }
+
+.history_cont li:last-child::after { content: ''; position: absolute; width: 5px; left: 0; top: 14px; bottom: 0; background-color: #f7f7f7; }
+
+.history_cont::before { content: ''; position: absolute; width: 1px; top: 12px; bottom: 0; left: 2px; background-color: #dbdbdb; }
+
+.sub_sec_history { position: relative; }
+
+.sub_sec_history .txt_img { position: absolute; bottom: -69px; left: 50%; }
+
+.sub_sec_history .txt_img img { max-width: none; }
+
+@media (max-width: 1920px) { .sub_sec_history .txt_img { bottom: -3.5vw; }
+  .sub_sec_history .txt_img img { max-width: 100%; } }
 
 .g_map { width: 100%; height: 320px; }
 
@@ -351,7 +364,9 @@ img { max-width: 100%; }
   .main_tech_item .link { padding: 20px 16px; }
   .mv_item_txt { font-size: 5vw; }
   .mv .mv-nav.mv-prev { left: 30px; }
-  .mv .mv-nav.mv-next { right: 30px; } }
+  .mv .mv-nav.mv-next { right: 30px; }
+  .sub_sec_history .txt_img { bottom: -4.8vw; left: 30%; }
+  .sub_sec_history .txt_img img { max-width: 100%; } }
 
 @media (max-width: 767px) { .m_only { display: block !important; }
   .pc_only { display: none; }
@@ -421,8 +436,33 @@ img { max-width: 100%; }
   .footer .inner .logo a { display: block; }
   .footer .inner .logo img { height: 34px; }
   .footer .inner .txt_box { margin-top: 32px; padding-left: 0; text-align: center; }
-  .year_item button { padding: 0 10px; }
   #wrap.sub #container { padding-top: 50px; }
+  .sub_sec { padding: 48px 0; }
+  .sub_sec_tit { margin-bottom: 32px; }
+  .sub_sec_tit h2 { font-size: 28px; line-height: 41px; }
+  .sv_wrap { height: 156px; }
+  .sv_wrap .txt_box h2 { font-size: 28px; line-height: 32px; }
+  .sv_wrap .txt_box p { font-size: 14px; line-height: 20px; margin-top: 8px; }
   .about_cont { display: block; }
-  .about_cont .img_box { text-align: center; padding-left: 0; margin-top: 30px; }
-  .about_cont .img_box img { margin-top: 0; } }
+  .about_cont .slogan { font-size: 18px; line-height: 26px; margin-bottom: 20px; letter-spacing: -0.54px; }
+  .about_cont .img_box { text-align: center; padding: 0 12%; margin-top: 30px; }
+  .about_cont .img_box img { margin-top: 0; }
+  .sub_txt { font-size: 14px; line-height: 24px; letter-spacing: -0.42px; }
+  .year_item button { padding: 0 20px; font-size: 18px; line-height: 21px; }
+  .year_item button span { padding-bottom: 20px; }
+  .year_area { margin: 0 -20px; }
+  .year_wrap { padding: 0; }
+  .year_wrap.scroll .btn_year_nav { display: none; }
+  .history_area { padding-top: 48px; }
+  .history_item h3 { font-size: 28px; line-height: 32px; }
+  .history_cont { margin-top: 21px; }
+  .history_cont li { font-size: 14px; line-height: 20px; letter-spacing: -0.42px; padding-left: 17px; }
+  .history_cont li::before { top: 7px; }
+  .history_cont li:last-child::after { top: 12px; }
+  .map_area { margin-bottom: 32px; }
+  .g_map { height: 240px; }
+  .map_info + .map_info { margin-top: 20px; }
+  .map_info_tit { font-size: 18px; line-height: 27px; padding-left: 18px; margin-bottom: 8px; }
+  .map_info_tit i img { height: 16px; }
+  .map_info ul li { font-size: 14px; line-height: 20px; }
+  .map_info ul li + li { margin-top: 4px; } }

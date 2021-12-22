@@ -712,18 +712,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* sub */
 .sv_wrap {
     height: 400px;
@@ -926,9 +914,55 @@ img {
                 left: 0;
                 top: 9px;
             }
+            &:last-child {
+                &::after {
+                    content:'';
+                    position: absolute;
+                    width: 5px;
+                    left: 0;
+                    top: 14px;
+                    bottom: 0;
+                    background-color: #f7f7f7;
+                }
+            }
+        }
+
+        position: relative;
+        &::before {
+            content:'';
+            position: absolute;
+            width: 1px;
+            top: 12px;
+            bottom: 0;
+            left: 2px;
+            background-color: #dbdbdb;
+        }
+
+    }
+}
+.sub_sec_history {
+    position: relative;
+    .txt_img {
+        position: absolute;
+        bottom: -69px;
+        left: 50%;
+        img {
+            max-width: none;
         }
     }
 }
+@include web {
+    .sub_sec_history {
+        .txt_img {
+            bottom: -3.5vw;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
 
 .g_map {
     width: 100%;
@@ -1096,7 +1130,15 @@ img {
             }
         }
     }
-
+    .sub_sec_history {
+        .txt_img {
+            bottom: -4.8vw;
+            left: 30%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 @include mobile {
@@ -1411,28 +1453,142 @@ img {
 
 
 
-    .year {
-        &_item {
-            button {
-                padding: 0 10px;
-            }
-        }
-    }
+
     #wrap.sub #container {
         padding-top: 50px;
+    }
+    .sub_sec {
+        padding: 48px 0;
+        &_tit {
+            margin-bottom: 32px;
+            h2 {
+                font-size: 28px;
+                line-height: 41px;
+            }
+
+        }
+    }
+
+    .sv_wrap {
+        height: 156px;
+        .txt_box {
+            h2 {
+                font-size: 28px;
+                line-height: 32px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 8px;
+            }
+        }
     }
 
     .about_cont {
         display: block;
+        .slogan {
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 20px;
+            letter-spacing: -0.54px;
+        }
         .img_box {
             text-align: center;
-            padding-left: 0;
+            padding: 0 12%;
             margin-top: 30px;
             img {
                 margin-top: 0;
+
+            }
+        }
+    }
+    .sub_txt {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.42px;
+    }
+
+    .year {
+        &_item {
+            button {
+                padding: 0 20px;
+
+                font-size: 18px;
+                line-height: 21px;
+                span {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        &_area {
+            margin: 0 -20px;
+        }
+    }
+    .year_wrap {
+        padding: 0;
+        &.scroll .btn_year_nav {
+            display: none;
+        }
+    }
+
+    .history {
+        &_area {
+            padding-top: 48px;
+        }
+        &_item {
+            h3 {
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+        &_cont {
+            margin-top: 21px;
+            li {
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: -0.42px;
+                padding-left: 17px;
+                &::before {
+                    top: 7px;
+                }
+                &:last-child::after {
+                    top: 12px;
+                }
             }
         }
     }
 
+    .map_area {
+        margin-bottom: 32px;
+    }
+    .g_map {
+        height: 240px;
+    }
+
+    .map_info {
+        & + & {
+            margin-top: 20px;
+        }
+        &_tit {
+            font-size: 18px;
+            line-height: 27px;
+            padding-left: 18px;
+            margin-bottom: 8px;
+            i {
+                img {
+                    height: 16px;
+                }
+            }
+        }
+        ul {
+            li {
+                font-size: 14px;
+                line-height: 20px;
+                & + li {
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
 
 }
