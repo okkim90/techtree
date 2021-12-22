@@ -1144,6 +1144,19 @@ img {
             }
         }
     }
+
+
+    .about_cont {
+        .txt_box {
+            width: 55%;
+            br.pc_only {
+                display: none;
+            }
+        }
+        .img_box {
+            width: 45%;
+        }
+    }
     .year_item {
         button span {
             z-index: 10;
@@ -1510,6 +1523,9 @@ img {
 
     .about_cont {
         display: block;
+        .txt_box {
+            width: 100%;
+        }
         .slogan {
             font-size: 18px;
             line-height: 26px;
@@ -1517,6 +1533,8 @@ img {
             letter-spacing: -0.54px;
         }
         .img_box {
+            width: 100%;
+            box-sizing: border-box;
             text-align: center;
             padding: 0 12%;
             margin-top: 30px;

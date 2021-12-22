@@ -369,6 +369,9 @@ img { max-width: 100%; }
   .mv_item_txt { font-size: 5vw; }
   .mv .mv-nav.mv-prev { left: 30px; }
   .mv .mv-nav.mv-next { right: 30px; }
+  .about_cont .txt_box { width: 55%; }
+  .about_cont .txt_box br.pc_only { display: none; }
+  .about_cont .img_box { width: 45%; }
   .year_item button span { z-index: 10; }
   .year_wrap::after { bottom: 1px; }
   .sub_sec_history .txt_img { bottom: -4.8vw; left: 30%; }
@@ -450,8 +453,9 @@ img { max-width: 100%; }
   .sv_wrap .txt_box h2 { font-size: 28px; line-height: 32px; }
   .sv_wrap .txt_box p { font-size: 14px; line-height: 20px; margin-top: 8px; }
   .about_cont { display: block; }
+  .about_cont .txt_box { width: 100%; }
   .about_cont .slogan { font-size: 18px; line-height: 26px; margin-bottom: 20px; letter-spacing: -0.54px; }
-  .about_cont .img_box { text-align: center; padding: 0 12%; margin-top: 30px; }
+  .about_cont .img_box { width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; padding: 0 12%; margin-top: 30px; }
   .about_cont .img_box img { margin-top: 0; }
   .sub_txt { font-size: 14px; line-height: 24px; letter-spacing: -0.42px; }
   .year_item button { padding: 0 20px; font-size: 18px; line-height: 21px; }
