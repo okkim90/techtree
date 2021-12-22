@@ -1144,6 +1144,12 @@ img {
             }
         }
     }
+
+    .year_wrap {
+        &::after {
+            bottom: 1px;
+        }
+    }
     .sub_sec_history {
         .txt_img {
             bottom: -4.8vw;
