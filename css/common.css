@@ -278,7 +278,7 @@ img { max-width: 100%; }
 
 .year_area { overflow-x: auto; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ position: relative; text-align: center; }
 
-.year_area::-webkit-scrollbar { display: none; }
+.year_area::-webkit-scrollbar { display: none; width: 0; height: 0; }
 
 .year_list { display: inline-block; vertical-align: top; text-align: center; white-space: nowrap; overflow-x: auto; font-size: 0; position: relative; }
 
