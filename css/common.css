@@ -270,7 +270,7 @@ img { max-width: 100%; }
 
 .sub_txt { font-size: 18px; line-height: 27px; font-weight: 500; letter-spacing: -0.54px; }
 
-.year_wrap { overflow: hidden; border-bottom: 1px solid #dbdbdb; padding: 0 40px; position: relative; }
+.year_wrap { overflow: hidden; border-bottom: 1px solid #dbdbdb; padding: 0 40px; position: relative; line-height: 0; }
 
 .year_area { overflow-x: auto; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ position: relative; text-align: center; }
 
