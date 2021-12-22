@@ -117,11 +117,15 @@ img {
                         left: 0;
                         opacity: 0;
                         transition: opacity .15s ease-in-out;
+
                     }
                 }
                 &:hover span::after {
                     opacity: 1;
                 }
+            }
+            &.on a span::after {
+                opacity: 1;
             }
         }
     }
@@ -832,6 +836,9 @@ img {
             font-family: play;
             color: #c6c6c6;
             transition: color .2s ease-in-out;
+            outline: none;
+            border: none;
+            box-sizing: border-box;
             @at-root .year_item.on button {
                 color: #222;
             }
