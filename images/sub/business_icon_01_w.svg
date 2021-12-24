@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_528" data-name="사각형 528" class="cls-1" transform="translate(.217 .217)" d="M0 0h54v54H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="사각형_496" data-name="사각형 496" class="cls-1" d="M0 0h31.033v9.48H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="사각형_499" data-name="사각형 499" class="cls-1" d="M0 0h6.284v6.329H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-6">
+            <path id="사각형_505" data-name="사각형 505" class="cls-1" d="M0 0h2.463v6.329H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-8">
+            <path id="사각형_511" data-name="사각형 511" class="cls-1" d="M0 0h10.066v6.66H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-9">
+            <path id="사각형_514" data-name="사각형 514" class="cls-1" d="M0 0h7.616v1.688H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-10">
+            <path id="사각형_517" data-name="사각형 517" class="cls-1" d="M0 0h10.066v2.755H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-11">
+            <path id="사각형_519" data-name="사각형 519" class="cls-1" d="M0 0h10.58v1.688H0z"/>
+        </clipPath>
+        <linearGradient id="linear-gradient" y1="1" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00baff"/>
+            <stop offset="1" stop-color="#329efe"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:none}.cls-3{clip-path:url(#clip-path)}.cls-4{opacity:.5}.cls-6{fill:#fff}.cls-7{clip-path:url(#clip-path-4)}
+        </style>
+    </defs>
+    <g id="business_icon_01_w" transform="translate(-450 -1162)">
+        <circle id="타원_2" data-name="타원 2" cx="50" cy="50" r="50" transform="translate(450 1162)" style="fill:url(#linear-gradient)"/>
+        <g id="그룹_372" data-name="그룹 372" transform="translate(472.783 1184.783)">
+            <g id="그룹_371" data-name="그룹 371" class="cls-3">
+                <g id="그룹_368" data-name="그룹 368">
+                    <g id="그룹_367" data-name="그룹 367" class="cls-3">
+                        <g id="그룹_342" data-name="그룹 342" class="cls-4" transform="translate(15.465 10.087)">
+                            <g id="그룹_341" data-name="그룹 341">
+                                <g id="그룹_340" data-name="그룹 340" style="clip-path:url(#clip-path-3)">
+                                    <path id="사각형_494" data-name="사각형 494" class="cls-6" d="M0 0h31.033v9.48H0z"/>
+                                    <path id="사각형_495" data-name="사각형 495" class="cls-6" d="M0 0h31.033v9.48H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_345" data-name="그룹 345" class="cls-4" transform="translate(23.715 27.034)">
+                            <g id="그룹_344" data-name="그룹 344">
+                                <g id="그룹_343" data-name="그룹 343" class="cls-7">
+                                    <path id="사각형_497" data-name="사각형 497" class="cls-6" d="M0 0h6.284v6.328H0z"/>
+                                    <path id="사각형_498" data-name="사각형 498" class="cls-6" transform="translate(.001)" d="M0 0h6.283v6.328H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_348" data-name="그룹 348" class="cls-4" transform="translate(31.965 27.034)">
+                            <g id="그룹_347" data-name="그룹 347">
+                                <g id="그룹_346" data-name="그룹 346" class="cls-7">
+                                    <path id="사각형_500" data-name="사각형 500" class="cls-6" d="M0 0h6.284v6.328H0z"/>
+                                    <path id="사각형_501" data-name="사각형 501" class="cls-6" d="M0 0h6.284v6.328H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_351" data-name="그룹 351" class="cls-4" transform="translate(19.286 27.034)">
+                            <g id="그룹_350" data-name="그룹 350">
+                                <g id="그룹_349" data-name="그룹 349" style="clip-path:url(#clip-path-6)">
+                                    <path id="사각형_503" data-name="사각형 503" class="cls-6" d="M0 0h2.463v6.328H0z"/>
+                                    <path id="사각형_504" data-name="사각형 504" class="cls-6" d="M0 0h2.463v6.328H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_354" data-name="그룹 354" class="cls-4" transform="translate(40.215 27.034)">
+                            <g id="그룹_353" data-name="그룹 353">
+                                <g id="그룹_352" data-name="그룹 352" class="cls-7">
+                                    <path id="사각형_506" data-name="사각형 506" class="cls-6" d="M0 0h6.284v6.328H0z"/>
+                                    <path id="사각형_507" data-name="사각형 507" class="cls-6" d="M0 0h6.284v6.328H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_357" data-name="그룹 357" class="cls-4" transform="translate(4.025 31.751)">
+                            <g id="그룹_356" data-name="그룹 356">
+                                <g id="그룹_355" data-name="그룹 355" style="clip-path:url(#clip-path-8)">
+                                    <path id="사각형_509" data-name="사각형 509" class="cls-6" transform="translate(.001)" d="M0 0h10.065v6.66H0z"/>
+                                    <path id="사각형_510" data-name="사각형 510" class="cls-6" transform="translate(.001)" d="M0 0h10.064v6.659H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_360" data-name="그룹 360" class="cls-4" transform="translate(5.25 40.13)">
+                            <g id="그룹_359" data-name="그룹 359">
+                                <g id="그룹_358" data-name="그룹 358" style="clip-path:url(#clip-path-9)">
+                                    <path id="사각형_512" data-name="사각형 512" class="cls-6" transform="translate(0 .001)" d="M0 0h7.616v1.687H0z"/>
+                                    <path id="사각형_513" data-name="사각형 513" class="cls-6" transform="translate(0 .001)" d="M0 0h7.616v1.687H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_363" data-name="그룹 363" class="cls-4" transform="translate(4.025 42.975)">
+                            <g id="그룹_362" data-name="그룹 362">
+                                <g id="그룹_361" data-name="그룹 361" style="clip-path:url(#clip-path-10)">
+                                    <path id="사각형_515" data-name="사각형 515" class="cls-6" transform="translate(.001)" d="M0 0h10.065v2.755H0z"/>
+                                    <path id="사각형_516" data-name="사각형 516" class="cls-6" transform="translate(.001)" d="M0 0h10.064v2.755H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="그룹_366" data-name="그룹 366" class="cls-4" transform="translate(25.692 23.105)">
+                            <g id="그룹_365" data-name="그룹 365">
+                                <g id="그룹_364" data-name="그룹 364" style="clip-path:url(#clip-path-11)">
+                                    <path id="사각형_518" data-name="사각형 518" class="cls-6" d="M0 0h10.58v1.688H0z"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path id="사각형_521" data-name="사각형 521" class="cls-6" transform="translate(41.327 38.863)" d="M0 0h1.724v1.717H0z"/>
+                <path id="사각형_522" data-name="사각형 522" class="cls-6" transform="translate(48.222 38.863)" d="M0 0h1.724v1.717H0z"/>
+                <path id="사각형_523" data-name="사각형 523" class="cls-6" transform="translate(44.774 38.863)" d="M0 0h1.724v1.717H0z"/>
+                <path id="사각형_524" data-name="사각형 524" class="cls-6" transform="translate(37.479 3.14)" d="M0 0h1.724v1.717H0z"/>
+                <path id="사각형_525" data-name="사각형 525" class="cls-6" transform="translate(44.374 3.14)" d="M0 0h1.724v1.717H0z"/>
+                <path id="사각형_526" data-name="사각형 526" class="cls-6" transform="translate(40.926 3.14)" d="M0 0h1.724v1.717H0z"/>
+                <g id="그룹_370" data-name="그룹 370">
+                    <g id="그룹_369" data-name="그룹 369" class="cls-3">
+                        <path id="패스_2565" data-name="패스 2565" class="cls-6" d="M49.708 13.85V3.983A3.684 3.684 0 0 0 46.021.31h-30.5a3.684 3.684 0 0 0-3.691 3.673v9.867A4.258 4.258 0 0 0 8 18.074v4.548h1.7v-4.548a2.56 2.56 0 0 1 2.138-2.515v8.75H3.081A2.77 2.77 0 0 0 .31 27.07v23.708a2.769 2.769 0 0 0 2.771 2.76h11.527a2.769 2.769 0 0 0 2.771-2.761V37.53h34.463v1.4a2.566 2.566 0 0 1-2.568 2.557h-30.2v1.687h2.1v4.139h-2.1V49h24.014v-1.688h-2.727v-4.139h8.914a4.258 4.258 0 0 0 4.261-4.245V18.074a4.259 4.259 0 0 0-3.827-4.224M38.67 47.312h-15.8v-4.139h15.8zM15.516 2h30.5a1.991 1.991 0 0 1 1.992 1.985v1.507H13.523V3.983A1.991 1.991 0 0 1 15.516 2M3.081 26h11.527a1.077 1.077 0 0 1 1.078 1.073v.709H2v-.71A1.077 1.077 0 0 1 3.081 26m12.6 21.315H2V29.468h13.685zm-1.078 4.539H3.081A1.077 1.077 0 0 1 2 50.778V49h13.685v1.778a1.077 1.077 0 0 1-1.078 1.073m2.771-16.008V27.07a2.77 2.77 0 0 0-2.771-2.761h-1.084V7.18h34.49v28.663H17.379zm32.327 0V15.56a2.561 2.561 0 0 1 2.134 2.515v17.768z" transform="translate(.214 .214)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
