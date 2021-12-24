@@ -290,7 +290,7 @@ img {
                     position: absolute;
                     width: 1px;
                     height: 100%;
-                    top: -100%;
+                    top: -130%;
                     left: 50%;
                     background-color: #fff;
                     animation: scroll 1s linear infinite;
@@ -310,10 +310,10 @@ img {
         }
         @keyframes scroll {
             0% {
-               top: -100%;
+               top: -130%;
             }
             100% {
-                top: 100%;
+                top: 130%;
             }
 
         }

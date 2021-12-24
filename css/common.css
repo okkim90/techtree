@@ -256,15 +256,15 @@ img { max-width: 100%; }
 
 .mv_wrap .mouse .line { display: block; margin-top: 12px; position: relative; height: 48px; overflow: hidden; }
 
-.mv_wrap .mouse .line::after { content: ''; position: absolute; width: 1px; height: 100%; top: -100%; left: 50%; background-color: #fff; -webkit-animation: scroll 1s linear infinite; animation: scroll 1s linear infinite; }
+.mv_wrap .mouse .line::after { content: ''; position: absolute; width: 1px; height: 100%; top: -130%; left: 50%; background-color: #fff; -webkit-animation: scroll 1s linear infinite; animation: scroll 1s linear infinite; }
 
 .mv_wrap .mouse strong { display: block; font-size: 16px; line-height: 19px; color: #fff; font-family: play; font-weight: bold; margin-bottom: 12px; }
 
-@-webkit-keyframes scroll { 0% { top: -100%; }
-  100% { top: 100%; } }
+@-webkit-keyframes scroll { 0% { top: -130%; }
+  100% { top: 130%; } }
 
-@keyframes scroll { 0% { top: -100%; }
-  100% { top: 100%; } }
+@keyframes scroll { 0% { top: -130%; }
+  100% { top: 130%; } }
 
 @-webkit-keyframes scroll2 { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
   50% { -webkit-transform: translateY(20px); transform: translateY(20px); }
