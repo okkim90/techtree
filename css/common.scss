@@ -5,6 +5,11 @@
         @content;
     }
 }
+@mixin tablet2 {
+    @media (max-width: 860px) {
+        @content;
+    }
+}
 @mixin tablet {
     @media (max-width: 1024px) {
         @content;
@@ -822,6 +827,19 @@ img {
         margin-bottom: 12px;
         color: $fc_blue;
     }
+    &.ty_solution {
+        flex-direction: row-reverse;
+        .txt_box {
+            width: auto;
+            flex: 1;
+        }
+        .img_box {
+            width: 204px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            text-align: right;
+        }
+    }
 }
 .sub_txt {
     font-size: 18px;
@@ -1132,9 +1150,116 @@ img {
 
 }
 
+.solution_desc {
+    display: flex;
+    margin: 0 -15px;
+    margin-top: 64px;
+    &_item {
+        width: 50%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        .inner_box {
+            height: 100%;
+            border: 1px solid #ddd;
+            padding: 36px 40px;
+            box-sizing: border-box;
+            position: relative;
+            &::before {
+                content:'';
+                position: absolute;
+                width: 40px;
+                height: 3px;
+                background-color: $fc_blue;
+                left: 40px;
+                top: -1px;
+            }
+            h3 {
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: -0.72px;
+                margin-bottom: 24px;
+            }
+            .list_wrap {
+                display: flex;
+            }
+            ul {
+                flex: 1;
+                flex-shrink: 0;
+                display: inline-block;
+                vertical-align: top;
+                & + ul {
+                    margin-left: 40px;
+                }
+                li {
+                    position: relative;
+                    padding-left: 10px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-top: 4px;
+                    &::before {
+                        content:'';
+                        position: absolute;
+                        width: 4px;
+                        height: 4px;
+                        background-color: $fc_blue;
+                        left: 0;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
 
+.works_list {
+    margin: 0 -15px;
+    margin-top: -60px;
+    font-size: 0;
+    &_item {
+        width: 33.3333%;
+        padding: 0 15px;
+        margin-top: 60px;
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        .img_box {
+            img {
+                width: 100%;
+            }
+        }
+        .txt_box {
+            padding-top: 24px;
+            text-align: center;
+            .icons {
+                margin-bottom: 16px;
+                > * {
+                    margin: 0 4px;
+                }
+            }
+            .tit {
+                display: block;
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: -0.72px;
+            }
+            .desc {
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.48px;
+                color: #919191;
+                margin-top: 4px;
+            }
+            .tags {
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.48px;
+                margin-top: 16px;
+            }
 
+        }
 
+    }
+}
 
 @include tablet {
     .header {
@@ -1312,6 +1437,16 @@ img {
     }
 
 }
+
+
+@include tablet2 {
+    .works_list {
+        &_item {
+            width: 50%;
+        }
+    }
+} 
+
 
 @include mobile {
     .m_only {
@@ -1652,6 +1787,9 @@ img {
     .sv_wrap {
         height: 156px;
         .txt_box {
+            padding: 0 16px;
+            width: 100%;
+            box-sizing: border-box;
             h2 {
                 font-size: 28px;
                 line-height: 32px;
@@ -1696,6 +1834,18 @@ img {
 
             }
         }
+        &.ty_solution {
+            .img_box {
+                padding: 0;
+                width: 100%;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 24px;
+                img {
+                    width: 80px;
+                }
+            }
+        } 
     }
     .sub_txt {
         font-size: 14px;
@@ -1828,6 +1978,84 @@ img {
                             top: 8px;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .solution_desc {
+        display: block;
+        margin: 0;
+        margin-top: 32px;
+        &_item {
+            width: 100%;
+            padding: 0;
+            & + & {
+                margin-top: 16px;
+            }
+            .inner_box {
+                padding: 26px 16px;
+                &::before {
+                    width: 24px;
+                    height: 2px;
+                    left: 16px;
+                }
+                h3 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: -0.54px;
+                    margin-bottom: 12px;
+                }
+                ul {
+                    & + ul {
+                        margin-left: 0;
+                    }
+                    li {
+                        font-size: 13px;
+                        line-height: 19px;
+                        letter-spacing: -0.39px;
+                        margin-top: 0;
+                        padding-left: 9px;
+                        &::before {
+                            top: 8px;
+                            width: 3px;
+                            height: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .works_list {
+        margin: 0;
+        &_item {
+            width: 100%;
+            padding: 0;
+            margin-top: 0;
+            & + & {
+                margin-top: 32px;
+            }
+            .txt_box {
+                padding-top: 20px;
+                .icons {
+                    margin-bottom: 12px;
+                }
+                .tit {
+                    font-size: 20px;
+                    line-height: 29px;
+                    letter-spacing: -0.6px;
+                }
+                .desc {
+                    font-size: 13px;
+                    line-height: 19px;
+                    letter-spacing: -0.39px;
+                    margin-top: 2px;
+                }
+                .tags {
+                    font-size: 13px;
+                    line-height: 19px;
+                    letter-spacing: -0.39px;
+                    margin-top: 12px;
                 }
             }
         }
