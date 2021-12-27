@@ -294,6 +294,8 @@ img { max-width: 100%; }
 
 .main_sec_tit p { font-size: 18px; line-height: 1.4; color: #919191; margin-top: 20px; }
 
+.main_about .img_box { padding: 0 13%; }
+
 .main_business { overflow: hidden; padding: 0; }
 
 .main_business .main_sec_tit { position: relative; z-index: 99; }

@@ -406,6 +406,11 @@ img {
             }
         }
     }
+    &_about {
+        .img_box {
+            padding: 0 13%;
+        }
+    }
     &_business {
         overflow: hidden;
         padding: 0;
@@ -1446,7 +1451,7 @@ img {
             width: 50%;
         }
     }
-} 
+}
 
 
 @include mobile {
@@ -1846,7 +1851,7 @@ img {
                     width: 80px;
                 }
             }
-        } 
+        }
     }
     .sub_txt {
         font-size: 14px;
