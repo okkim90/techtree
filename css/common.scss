@@ -811,6 +811,9 @@ img {
     .img_box {
         padding-left: 4%;
         text-align: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
         img {
             max-width: 100%;
             margin-top: -20px;
@@ -843,6 +846,7 @@ img {
             box-sizing: border-box;
             flex-shrink: 0;
             text-align: right;
+            display: block;
         }
     }
 }
@@ -1827,6 +1831,7 @@ img {
         }
         .img_box {
             width: 100%;
+            display: block;
             box-sizing: border-box;
             text-align: center;
             padding: 0 12%;
